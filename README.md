@@ -15,3 +15,8 @@ OVH credentials as per [OVH token creation page](https://api.ovh.com/createToken
 - `DNS_ZONE`, `DNS_SUBDOMAIN`:
 
 Zone and subdomain, e.g. `DNS_ZONE=example.dom` `DNS_SUBDOMAIN=kubernetes` to update DNS records for [kubernetes.example.com](). 
+
+Run
+---
+
+    python ./ovh_dns_updater.py
